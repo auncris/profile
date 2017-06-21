@@ -1,0 +1,110 @@
+/* Here goes your CSS */
+body {
+  color: #cccccc;
+  background-color: #EBEBEB;
+  font-family: 'Montserrat';
+  font-size: 14px;
+}
+
+
+h1 {
+  font-weight: bold;
+  color: #db1e63;
+}
+
+h2 {
+  font-weight: lighter;
+  color: #85d6e7
+
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 5px 15px 15px 15px;
+  font-size: 13px;
+  }
+
+a {
+  font-weight: lighter;
+  text-decoration: none;
+  color: #CAEBF2;
+}
+
+a:hover {
+  color: #db1e63;
+}
+
+
+
+  /* Custom design */
+
+.container {
+  margin: 60px 20px 20px 320px;
+  width: 500px;
+}
+
+.card {
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.text-center {
+ text-align: center;
+}
+
+.avatar {
+  height: 25%;
+  border-radius: 50%;
+  margin-top: 25px;
+
+}
+
+#inline-list {
+  padding: 30px;
+  list-style: none;
+
+}
+
+.display-square {
+  height: 150px;
+  width: 150px;
+  margin: 15px 10px 15px 15px;
+  border-radius: 4%;
+}
+
+.comic {
+  padding-top: 20px;
+}
+
+.table-a {
+  padding-left: 15px;
+
+}
+
+.btn-red {
+   background-color: #db1e63;
+   padding : 5px;
+   border-radius: 5px;
+}
+
+.btn-red:hover {
+  color: #db1e63;
+  background-color: #CAEBF2;
+
+}
+
+.text-justify {
+ text-align: justify;
+}
+
+
+
+
+
