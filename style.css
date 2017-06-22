@@ -15,7 +15,6 @@ h1 {
 h2 {
   font-weight: lighter;
   color: #85d6e7
-
 }
 
 p {
@@ -36,7 +35,6 @@ a:hover {
 }
 
 
-
   /* Custom design */
 
 .container {
@@ -50,9 +48,6 @@ a:hover {
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-
-
-
 }
 
 .text-center {
@@ -60,16 +55,24 @@ a:hover {
 }
 
 .avatar {
-  height: 25%;
-  border-radius: 50%;
+  height: 20%;
+  border: 3px solid #cccccc;
   margin-top: 25px;
-
 }
 
-#inline-list {
-  padding: 30px;
-  list-style: none;
+.img-circle {
+  border-radius: 50%;
+}
 
+.inline-list {
+  padding-top: 10px;
+  list-style: none;
+}
+
+
+.inline-list li {
+  display:inline;
+  padding-right: 30px;
 }
 
 .display-square {
@@ -91,13 +94,13 @@ a:hover {
 .btn-red {
    background-color: #db1e63;
    padding : 5px;
-   border-radius: 5px;
+   border-radius: 3px;
+   font-size: 12px;
 }
 
 .btn-red:hover {
   color: #db1e63;
   background-color: #CAEBF2;
-
 }
 
 .text-justify {
